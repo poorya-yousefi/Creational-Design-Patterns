@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDesignPatterns", "CreationalDesignPatterns\CreationalDesignPatterns.csproj", "{588D4511-6A88-4844-826F-60BE898A688E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns_Playground", "DesignPatterns_Playground\DesignPatterns_Playground.csproj", "{CDDBD616-A70E-4CE1-A3C3-A388E652680A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{588D4511-6A88-4844-826F-60BE898A688E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{588D4511-6A88-4844-826F-60BE898A688E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{588D4511-6A88-4844-826F-60BE898A688E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDBD616-A70E-4CE1-A3C3-A388E652680A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDBD616-A70E-4CE1-A3C3-A388E652680A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDBD616-A70E-4CE1-A3C3-A388E652680A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDBD616-A70E-4CE1-A3C3-A388E652680A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
