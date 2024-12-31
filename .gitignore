@@ -16,6 +16,7 @@
 # Mono auto generated files
 mono_crash.*
 
+.idea
 *.DS_Store
 
 # Build results
