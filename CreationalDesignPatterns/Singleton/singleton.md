@@ -117,6 +117,28 @@ enum Season
 }
 ```
 
+## Usage of Singleton in real world apps
+
+- **Logging**: Many applications use a Singleton logger to ensure that all parts of the application log messages to the same file or output stream.
+
+- **Configuration Settings**: Applications often use a Singleton to manage configuration settings, ensuring that all parts of the application have consistent access to the same configuration data.
+
+- **Database Connections**: A Singleton can be used to manage a single database connection, reducing the overhead of creating and managing multiple connections.
+
+- **File System Access**: Applications that need to manage access to files can use a Singleton to ensure that only one instance of the file manager is used, preventing conflicts and ensuring consistency.
+
+- **Resource Management**: In applications that manage limited resources (e.g., thread pools, memory pools), a Singleton can be used to ensure that resources are allocated and managed consistently.
+
+- **Service Locator**: A Singleton can be used to implement a service locator, providing a global point of access to various services used throughout the application.
+
+- **Cache Management**: A Singleton can be used to manage a cache, ensuring that all parts of the application have access to the same cached data and that cache invalidation is handled consistently.
+
+- **Device Management**: In applications that interact with hardware devices, a Singleton can be used to manage access to the devices, ensuring that only one instance of the device manager is used.
+
+- **Session Management**: Web applications often use a Singleton to manage user sessions, ensuring that session data is consistent and accessible throughout the application.
+
+- **State Management**: In applications that need to manage global state, a Singleton can be used to ensure that state is managed consistently and accessible from anywhere in the application.
+
 ## Useful Links
 
 - [Double-checked locking](https://en.wikipedia.org/wiki/Double-checked_locking)
