@@ -4,3 +4,4 @@
 - [Prototype](CreationalDesignPatterns/Prototype/prototype.md)
 - [Builder](CreationalDesignPatterns/Builder/builder.md)
 - [Factory Method](CreationalDesignPatterns/FactoryMethod/factoryMethod.md)
+- [Abstract Factory Method](CreationalDesignPatterns/AbstractFactory/abstractFactory.md)

@@ -1,6 +1,6 @@
 # Factory Method Design Pattern
 
-Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, 
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass,
 but allows subclasses to alter the type of objects that will be created.
 
 ## Applicability
@@ -13,6 +13,7 @@ but allows subclasses to alter the type of objects that will be created.
 - Use the Factory Method when you want to provide users of your library or framework with a way to extend its internal components.(use inheritance and override methods.)
 
 > Let’s think about what has to be done to reuse an existing object:
+
 1. First, you need to create some storage to keep track of all of the created objects.
 2. When someone requests an object, the program should look for a free object inside that pool.
 3. and then return it to the client code.
